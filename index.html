@@ -12,12 +12,14 @@
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- aos -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav" data-aos="fade-right" data-aos-duration="1500" >
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">Didik Sudaryanto</span>
                 <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/didik.jpg" alt="..." /></span>
@@ -37,17 +39,18 @@
             <!-- About-->
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
-                    <h1 class="mb-0">
+                    <h1 class="mb-0" data-aos="fade-right"  data-aos-delay="500" data-aos-duration="2000">
                         Didik 
                         <span class="text-primary">Sudaryanto</span>
                     </h1>
                     <div class="subheading mb-5">
-                         WhatsApp · +62 812-1379-0861 ·
-                        <a href="#didikzharfan@gmail.com">didikzharfan@gmail.com</a>
+                         <a href="wa.html">WhatsApp · +62 812-1379-0861 </a>
+                         <br>
+                        <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCKCFSmhKjccsNsBvLNKZKVdHjtFKLvsGlTdnJZrhZddgDjHPTZfGPgXXXTBKlJPJHzgmNXq">didikzharfan@gmail.com</a>
                     </div>
                     <p class="lead mb-5">Hi, my name is Didik Sudaryanto, you can call him Didik,
                         I live in Cimanggis, Depok, I am a supervisor at PT Dirgaputra Ekapratama.</p>
-                    <div class="social-icons">
+                    <div class="social-icons" data-aos="flip-left" data-aos-duration="2000">
                         <a class="social-icon" href="https://www.facebook.com/didik.sudaryanto.1"><i class="fab fa-facebook-f"></i></a>
                     </div>
                 </div>
@@ -55,7 +58,7 @@
             <hr class="m-0" />
             <!-- Experience-->
             <section class="resume-section" id="experience">
-                <div class="resume-section-content">
+                <div class="resume-section-content" data-aos="fade-right" data-aos-duration="1500">
                     <h2 class="mb-5">Experience</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
@@ -76,10 +79,10 @@
                     </div>
                 </div>
             </section>
-            <hr class="m-0" />
+            <hr>
             <!-- Education-->
             <section class="resume-section" id="education">
-                <div class="resume-section-content">
+                <div class="resume-section-content" data-aos="fade-right" data-aos-duration="1500">
                     <h2 class="mb-5">Education</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
@@ -100,7 +103,7 @@
             <hr class="m-0" />
             <!-- Interests-->
             <section class="resume-section" id="interests">
-                <div class="resume-section-content">
+                <div class="resume-section-content" data-aos="fade-right" data-aos-duration="1500">
                     <h2 class="mb-5">Interests</h2>
                     <h4>Apart from being a supervisor, I have an interest in the automotive field, and I like touring with my club friends</h4>
                 </div>
@@ -113,4 +116,9 @@
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     </body>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  
 </html>
